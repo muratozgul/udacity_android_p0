@@ -27,36 +27,42 @@
         android:id="@+id/button"
         android:layout_marginTop="50dp"
         android:layout_below="@+id/textView"
-        style="@style/AppTheme.CustomButtonStyle" />
+        style="@style/AppTheme.CustomButtonStyle"
+        android:onClick="makeToast" />
 
     <Button
         android:text="@string/project2_title"
         android:id="@+id/button2"
         android:layout_below="@+id/button"
-        style="@style/AppTheme.CustomButtonStyle" />
+        style="@style/AppTheme.CustomButtonStyle"
+        android:onClick="makeToast" />
 
     <Button
         android:text="@string/project3_title"
         android:id="@+id/button3"
         android:layout_below="@+id/button2"
-        style="@style/AppTheme.CustomButtonStyle" />
+        style="@style/AppTheme.CustomButtonStyle"
+        android:onClick="makeToast" />
 
     <Button
         android:text="@string/project4_title"
         android:id="@+id/button4"
         android:layout_below="@+id/button3"
-        style="@style/AppTheme.CustomButtonStyle" />
+        style="@style/AppTheme.CustomButtonStyle"
+        android:onClick="makeToast" />
 
     <Button
         android:text="@string/project5_title"
         android:id="@+id/button5"
         android:layout_below="@+id/button4"
-        style="@style/AppTheme.CustomButtonStyle" />
+        style="@style/AppTheme.CustomButtonStyle"
+        android:onClick="makeToast" />
 
     <Button
         android:text="@string/project6_title"
         android:id="@+id/button6"
         android:layout_below="@+id/button5"
         style="@style/AppTheme.CustomButtonStyle"
-        android:background="#ff0000" />
+        android:background="#ff0000"
+        android:onClick="makeToast" />
 </RelativeLayout>
